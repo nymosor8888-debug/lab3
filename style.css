@@ -1,0 +1,106 @@
+
+/* 1. Ерөнхий дизайн */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 30px 15px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #0b1f23;
+    color: #eaf4f5;
+}
+
+/* 2. Формын үндсэн хайрцаг */
+.form-container {
+    position: relative;
+    max-width: 450px;
+    margin: 40px auto;
+    padding: 32px;
+    background-color: #153e43;
+    border: 1px solid #286067;
+    border-radius: 16px;
+}
+
+/* 3. Гарчиг */
+.form-title {
+    margin: 12px 0;
+    color: #ffffff;
+    font-size: 28px;
+    text-align: center;
+}
+
+.form-description {
+    margin-bottom: 28px;
+    color: #b8d2d5;
+    text-align: center;
+}
+
+/* 4. Талбарууд */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.form-input {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #547b80;
+    border-radius: 8px;
+    background-color: #0e292e;
+    color: white;
+    font-family: inherit;
+    font-size: 15px;
+}
+
+.form-input:focus {
+    outline: 2px solid #38bdf8;
+    border-color: #38bdf8;
+}
+
+/* 5. Бүртгүүлэх товч */
+.submit-btn {
+    width: 100%;
+    padding: 13px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 8px;
+    background-color: #19a7a0;
+    color: white;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #138780;
+}
+
+/* 6. Position ашигласан badge */
+.badge {
+    position: absolute;
+    top: -12px;
+    right: 20px;
+    padding: 6px 12px;
+    border-radius: 20px;
+    background-color: #f4a340;
+    color: #17252a;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+/* 7. Доод тайлбар */
+.form-footer {
+    margin: 22px 0 0;
+    color: #b8d2d5;
+    font-size: 13px;
+    text-align: center;
+}
