@@ -108,6 +108,8 @@ h1, h2, h3, p, ul {
 /* ---------- Sidebar ---------- */
 .sidebar {
     align-self: start;
+    width: 400px;
+    height:200px;
     padding: 22px;
     background-color: #153e43;
     border: 1px solid #286067;
